@@ -6,6 +6,8 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class HtmltoTextFile {
+  //Main takes String args as its input, and will throw an exception (likely IOException) if necessary. 
+  //main has no return, but will print out information to the user, and write the same information to the output file designated.
   public static void main(String[] args) throws Exception
   {                                                   //runs the actual conversion and manipulation of the string data, as well as pulls it from the input file and outputs it to the output file.
     String inputFileName = "dataStructures.html";     //String that stores the filename of the input html file.
