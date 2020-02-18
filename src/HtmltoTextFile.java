@@ -8,7 +8,7 @@ import java.nio.file.Paths;
 public class HtmltoTextFile {
   public static void main(String[] args) throws Exception
   {
-    String inputFileName = "complicatedExampleCustomersTable.html";
+    String inputFileName = "dataStructures.html";
     String formattingString = "";
     formattingString = new String(Files.readAllBytes(Paths.get(inputFileName)));
 
