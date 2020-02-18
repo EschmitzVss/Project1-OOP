@@ -12,3 +12,5 @@ Requires:
 Steps:
   1. Define a correct input file name and output file name - HtmltoTextFile assumes the files are all in the same directory.
   2. java HtmltoTextFile.java - Accepts string arguments but does not change the function
+
+![alt text](https://github.com/EschmitzVss/Project1OOP/blob/master/src/images/Step2.PNG "Step 1")
